@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main">
+        <input class="input" type="text" id="pokemon" placeholder="Pokémon">
+        <button class="input" onclick="carregar()">Carregar</button>
+        <div id="dados">
+
+            <h1 id="nome"></h1>
+
+            <img src="" alt="" id="imagem">
+
+            <div class="status">
+                <div class="all">
+                   <img class="icon" src="hearth.png" alt="">
+                   <p class='texto'>Hp: </p>
+                   <p  class='texto' id="hp"></p>
+                </div>
+                <div class="all">
+                    <img class="icon" src="sword-png.webp" alt="">
+                    <p class='texto'>Attack: </p>
+                    <p class='texto' id="atck"></p>
+                </div>
+                <div class="all">
+                    <img class="icon" src="escudo.png" alt="">
+                    <p class='texto'>Defense: </p>
+                    <p class='texto' id="def"></p>
+                </div>
+                <div class="all">
+                    <img class="icon" src="especial.png" alt="">
+                    <p class='texto' >Especial Attack: </p>
+                    <p class='texto' id="especial"></p>
+                </div>
+                <div class="all">
+                    <p class='texto' >Especial Defense</p>
+                    <p class='texto' id="especial_def"></p>
+                </div>
+                <div class="all">
+                    <p class='texto'>Speed:</p>
+                    <p class='texto' id="speed"></p>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

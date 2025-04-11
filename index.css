@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-image: url('fund.jpeg');
+    background-size: cover;
+}
+#main{
+   text-align: center;
+   width: 500px;
+   border-radius: 50px;
+}
+#imagem{
+    width: 200px;
+    height: 200px;
+}
+.status{
+   justify-content: center;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.404);
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.texto{
+    color: brown;
+    font-size: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
